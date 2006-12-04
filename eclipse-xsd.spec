@@ -34,3 +34,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %{_eclipsedir}/features/org.eclipse.xsd*
 %{_eclipsedir}/plugins/org.eclipse.xsd*
+%{_eclipsedir}/plugins/org.eclipse.emf.mapping.xsd*
