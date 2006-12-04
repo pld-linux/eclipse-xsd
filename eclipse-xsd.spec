@@ -1,11 +1,12 @@
-%define		module xsd
+%define		module		xsd
+%define		_buildid	R200609210005
 Summary:	XSD Schema Infoset Model
 Name:		eclipse-%{module}
 Version:	2.2.1
 Release:	0.1
 License:	CPL
 Group:		Development/Tools
-Source0:	http://download.eclipse.org/tools/emf/downloads/drops/%{version}/R200609210005/%{module}-SDK-%{version}.zip
+Source0:	http://download.eclipse.org/tools/emf/downloads/drops/%{version}/%{_buildid}/%{module}-SDK-%{version}.zip
 # Source0-md5:	52dc08d87d41e65b7c442bea868ee71c
 #URL:		
 BuildRequires:	unzip
