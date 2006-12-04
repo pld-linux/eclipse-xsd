@@ -3,8 +3,8 @@
 Summary:	XSD Schema Infoset Model
 Name:		eclipse-%{module}
 Version:	2.2.1
-Release:	0.1
-License:	CPL
+Release:	0.2
+License:	EPL v1.0
 Group:		Development/Tools
 Source0:	http://download.eclipse.org/tools/emf/downloads/drops/%{version}/%{_buildid}/%{module}-SDK-%{version}.zip
 # Source0-md5:	52dc08d87d41e65b7c442bea868ee71c
@@ -14,7 +14,7 @@ Requires:	eclipse >= 3.2
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define	_eclipsedir	%{_datadir}/eclipse
+%define	_eclipsedir	%{_libdir}/eclipse
 
 %description
 XSD Schema Infoset Model.
