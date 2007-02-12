@@ -1,7 +1,7 @@
 %define		module		xsd
 %define		_buildid	R200609210005
 Summary:	XSD Schema Infoset Model
-Summary(pl):	Model Infoset w schemacie XSD
+Summary(pl.UTF-8):   Model Infoset w schemacie XSD
 Name:		eclipse-%{module}
 Version:	2.2.1
 Release:	0.2
@@ -19,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 XSD Schema Infoset Model.
 
-%description -l pl
+%description -l pl.UTF-8
 Model Infoset w schemacie XSD.
 
 %prep
