@@ -4,7 +4,7 @@ Summary:	XSD Schema Infoset Model
 Summary(pl.UTF-8):	Model Infoset w schemacie XSD
 Name:		eclipse-%{module}
 Version:	2.2.5
-Release:	0.1
+Release:	1
 License:	EPL v1.0
 Group:		Libraries/Java
 Source0:	http://archive.eclipse.org/modeling/emf/emf/downloads/drops/%{version}/R200808252119/xsd-SDK-%{version}.zip
