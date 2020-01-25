@@ -1,5 +1,4 @@
 %define		module		xsd
-%include	/usr/lib/rpm/macros.java
 Summary:	XSD Schema Infoset Model
 Summary(pl.UTF-8):	Model Infoset w schemacie XSD
 Name:		eclipse-%{module}
